@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\changluei\\.ohos\\config\\default_SnapTask_zsx3Vt-Jh3EUB2oSLInNG8hUgKs8dAFLIYmwA6vbVpY=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BF6E4CD76EA62963835AB6059B65CEE9C8E8EAE9D0E190E68DF6828515E8E7E8BC389B605387299",
+          "profile": "C:\\Users\\changluei\\.ohos\\config\\default_SnapTask_zsx3Vt-Jh3EUB2oSLInNG8hUgKs8dAFLIYmwA6vbVpY=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\changluei\\.ohos\\config\\default_SnapTask_zsx3Vt-Jh3EUB2oSLInNG8hUgKs8dAFLIYmwA6vbVpY=.p12",
+          "storePassword": "0000001B3FB0B31CB5413CD8B1AAD320D85F1CA544CE8EF013D653B4AF478A494BB9B6A78B2D9AB06FC9D3"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
