@@ -32,8 +32,3 @@ DEEPSEEK_API_KEY=你的Key
 ```bash
 mvn spring-boot:run
 ```
-
-## 提交说明
-
-- 前端构建产物、`oh_modules`、`build`、`.hvigor`、后端 `target`、日志文件不会提交到仓库。
-- 数据库脚本、前后端源码和说明文档会保留。
